@@ -1,0 +1,26 @@
+Aashita Verma 
+
+Experimental Clock : Celestial Clock
+
+Key Features : 
+
+When you hover over each planet - 
+1. You get the equivalent of Earth's time in terms of that planet's day (same fraction of time that has passed on earth at the current time of the day so if half the day has passed then in Jupiter the time would be 5, as the day is 10 hours long) 
+2. Hovered-on planet's total hours in a day is also displayed 
+3. The rotation speed of the central planet changes according to it's ratio with the earth's speed (Earth's orbital speed : Other planet's orbital speed)
+4. Color of central planet corresponds to the hovered-on planet
+
+Concept Note : 
+
+'People like us who believe in physics know that the distinction between past, present, and future is only a stubbornly persistent illusion' - Albert Einstein
+
+Time is purely a human construct, it is an illusion that grounds us to the earth but in the wider system of the universe our time means nothing. The celestial clock is an alternate method of time keeping based on the length of a day on different planets. It shows what the time would be on another planet if the same fraction of the day had passed as on earth.
+
+Process & Reflection : 
+
+I wanted to try positioning things within a 3D space this time as it would best suit my concept but it was tough to visualize after having worked in the 2D plane (translate function saves the day!). Another aspect that I had to do some trial and error with was the order of placing the elements - conditionals, funtions etc. but by the end I felt a little more confident with it (definately need more practice though).
+
+I used a fact sheet of different planet to earth ratios (added the png on the left).I also learned how arrays work to store the data of the planet names and colours instead of having to add it seperately. The fun fonts made the clock feel really playful like a pixel game. 
+
+Overall, I had way too much fun working on this and would like to make it even more interactive and informative when I have some time and add other details than just time and speed. I also really enjoyed observing my friends interact with it and I think it turned out to be an interesting form of data visualization which can be used to generate all different kinds of fun astronimical facts.
+
