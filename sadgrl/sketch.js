@@ -53,3 +53,18 @@ function mouseDragged() {
 function mouseReleased() {
   drawing = false;
 }
+
+function touchStarted() {
+  mousePressed();
+  return false; // prevent default touch behavior (like scrolling)
+}
+
+function touchMoved() {
+  mouseDragged();
+  return false;
+}
+
+function touchEnded() {
+  mouseReleased();
+  return false;
+}
