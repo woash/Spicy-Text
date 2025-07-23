@@ -97,7 +97,7 @@ function drawFlower(k) {
     let r = a + b * cos(k * theta);
     let x = r * cos(theta);
     let y = r * sin(theta);
-    vertex(x + width / 2, y + height / 2);
+    vertex(x + width / 2.05, y + height / 2);
   }
   endShape(CLOSE);
 }
